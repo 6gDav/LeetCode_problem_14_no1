@@ -3,15 +3,22 @@ package main
 import "fmt"
 
 func longestCommonPrefix(strs []string) string {
-	res := ""
+	if len(strs) == 0 {
+		return ""
+	}
 
 	iterator := shortestworld(strs)
 	fmt.Println(iterator)
+	res := ""
+	for i := 0; i < iterator; i++ {
+		actullchar := strs[0][i]
 
-	for _, val := range strs {
-		matchall := ""
-
-		res = matchall
+		for _, val := range strs {
+			if val[i] != actullchar {
+				return res
+			}
+		}
+		res += string(actullchar)
 	}
 
 	return res

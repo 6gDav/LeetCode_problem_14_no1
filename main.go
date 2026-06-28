@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(longestCommonPrefix([]string{"flower", "flow", "flight"}))
+	fmt.Println("Longest " + longestCommonPrefix([]string{"flower", "flow", "flight"}))
 }
