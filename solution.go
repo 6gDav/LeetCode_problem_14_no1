@@ -8,7 +8,7 @@ func longestCommonPrefix(strs []string) string {
 	}
 
 	iterator := shortestworld(strs)
-	fmt.Println(iterator)
+	
 	res := ""
 	for i := 0; i < iterator; i++ {
 		actullchar := strs[0][i]
