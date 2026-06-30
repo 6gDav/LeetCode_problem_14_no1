@@ -26,16 +26,16 @@ I made it in release mode for more accurate results:
 go run .
 ```
 
-Hardware: *Apple Mac Mini M4*
+Hardware: *Ryzen 5 7300U 16GB RAM*
 
 ### 🤏 Small Input Test
 
-* **Execution Time**: *52.083µs*
-* **Memory Delta**:   *0 bytes*
-* **Current Memory**: *12667144 bytes*
+* **Execution Time**: *0s*
+* **Memory Delta**:   *16 bytes*
+* **Current Memory**: *11161600 bytes*
 
 ### 😖 Stress Test (Large Input)
 
-* **Execution Time**: *7.833µs*
+* **Execution Time**: *0s*
 * **Memory Delta**:   *16 bytes*
-* **Current Memory**: *12994824 bytes*
+* **Current Memory**: *11685888 bytes*
